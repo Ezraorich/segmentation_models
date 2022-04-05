@@ -162,7 +162,7 @@ def build_unet(
 def Unet(
         backbone_name='vgg16',
         input_shape=(None, None, 3),
-        classes=1,
+        classes=4,
         activation='sigmoid',
         weights=None,
         encoder_weights='imagenet',
